@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="portfoliostyle.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded = "false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>        </button>
+            <a class="navbar-brand color-me" href="#home">Home</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contactme">Contact me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class = "jumbotron text-center" id = "home">
+    <div class = "container home-page">
+        <h1>Hi! I'm Sai Manideep</h1>
+        <hr class = "seperator seperator-red">
+        <h4>Aspiring front-end developer | Master's in Computer Science | avid-reader</h4>
+    </div>
+</header>
+
+<div id = "about" class = "content-container">
+    <div class = "row text-center">
+        <h3>ABOUT ME</h3>
+        <hr class = "seperator seperator-red">
+        <div class = "col-xs-8 col-xm-8 col-md-8 desc">
+            <p>I am Sai Manideep Vanam. I recently graduated with my master's degree in computer science. I am an aspiring front-end developer. I know popular languages such as HTML, CSS, JavaScript and worked with frameworks such as BootStrap. I am also familiar with C, C++ and Java.</p>
+        </div>
+        <div class = "col-xs-4 col-sm-4 col-md-4" text-center>
+            <!--<img src = "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAATLAAAAJDUzNjdjMzUzLTUwMDMtNDBhZi04MDAyLWM5ODg0NzM2Mzg4OQ.jpg" class = "img-responsive img-circle" alt = "profile picture"> -->
+        </div>
+    </div>
+</div>
+
+<section id = "portfolio" class = "content-container">
+    <div class = "container">
+        <div class = "row text-center">
+            <h2><span>PORTFOLIO</span></h2>
+            <hr class = "seperator seperator-red">
+        </div>
+        <div class = "row">
+            <div class = "col-xs-4 col-sm-4 col-md-4">
+                <figure class = "effect-pf">
+                    <img class = "img-responsive" src = "http://static.sportskeeda.com/wp-content/uploads/2013/10/rahul-dravid1-1981907.jpg">
+                    <figcaption>
+                        <h3>Tribute</h3>
+                        <p>Rahul Dravid tribute page</p>
+                        <a href = "https://codepen.io/manideepv/pen/xrzeMW" target = "_blank"> View More</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class = "col-xs-4 col-sm-4 col-md-4">
+                <figure class = "effect-pf">
+                    <img class = "img-responsive" src="https://s-media-cache-ak0.pinimg.com/originals/49/a0/b6/49a0b64dd56cb6a891d0c0c26c204718.jpg">
+                    <figcaption>
+                        <h3>Random Quote Generator</h3>
+                        <p>Generates and tweets random quotes</p>
+                        <a href = "https://codepen.io/manideepv/pen/vZrMMP" target = "_blank"> View More</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class = "col-xs-4 col-sm-4 col-md-4">
+                <figure class = "effect-pf">
+                  <img class = "img-responsive" src="http://media.biobiochile.cl/wp-content/uploads/2016/05/wikipedia-logo.jpg">
+                  <figcaption>
+                      <h3>wikipedia viewer</h3>
+                      <p>gives top ten results for given search</p>
+                      <a href = "https://codepen.io/manideepv/pen/KqBpRy" target = "_blank"> View More</a>
+                  </figcaption>
+                 </figure>
+            </div>
+
+            <div class = "col-xs-4 col-xs-pull-8 col-sm-4 col-sm-pull-8 col-md-4 col-md-pull-8">
+                <figure class = "effect-pf">
+                    <img class = "img-responsive" src="http://wallpapercave.com/wp/kWTL1cr.jpg">
+                    <figcaption>
+                        <h3>Portfolio 6</h3>
+                        <p>Short description here</p>
+                        <a href = "#" target = "_blank"> View More</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id = "contactme" class = "content-container">
+    <div class = "container">
+        <div class = "row social">
+            <h3>Contact me!</h3>
+            <hr class = "seperator seperator-red" align = "left">
+            <ul class = "list-unstyled list-inline">
+                <li><a href = "https://www.facebook.com/Manideep.V" target = "_blank" id = "facebook"><i class = "fa fa-facebook-official"></i></a></li>
+                <li><a href = "https://codepen.io/manideepv/" target = "_blank" id = "codepen"><i class = "fa fa-codepen fa"></i></a></li>
+                <li><a href = "https://www.linkedin.com/in/manideep-v-653244141/" target = "_blank" id="linkedin"><i class = "fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="valid.js"></script>
+</body>
+</html>
